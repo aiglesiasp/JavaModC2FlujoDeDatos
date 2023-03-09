@@ -22,26 +22,26 @@ public class Ejercicio11 {
 		String dia = sc.nextLine();
 		sc.close();
 		
-		switch(dia) {
-			case "Lunes":
+		switch(dia.toUpperCase()) {
+			case "LUNES":
 				System.out.println("Es un dia LABORABLE");
 				break;
-			case "Martes":
+			case "MARTES":
 				System.out.println("Es un dia LABORABLE");
 				break;
-			case "Miercoles":
+			case "MIERCOLES":
 				System.out.println("Es un dia LABORABLE");
 				break;
-			case "Jueves":
+			case "JUEVES":
 				System.out.println("Es un dia LABORABLE");
 				break;
-			case "Viernes":
+			case "VIERNES":
 				System.out.println("Es un dia LABORABLE");
 				break;
-			case "Sabado":
+			case "SABADO":
 				System.out.println("ES FESTIVO!!!");
 				break;
-			case "Domingo":
+			case "DOMINGO":
 				System.out.println("ES FESTIVO!!!");
 				break;
 		
