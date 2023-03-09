@@ -27,6 +27,7 @@ public class Ejercicio10 {
 			valorTotal = valorTotal + valorVenta;
 		}
 		
+		sc.close();
 		System.out.println("El valor total de las ventas es de: " +valorTotal);
 
 	}

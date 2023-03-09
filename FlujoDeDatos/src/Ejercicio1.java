@@ -25,6 +25,7 @@ public class Ejercicio1 {
 		int numA = sc.nextInt();
 		System.out.println("Introduce el numero B: ");
 		int numB = sc.nextInt();
+		sc.close();
 		
 		if (numA < numB) {
 			System.out.println("El numero A es MENOR que el numero B");

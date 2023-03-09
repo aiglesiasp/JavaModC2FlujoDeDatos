@@ -22,6 +22,7 @@ public class Ejercicio6 {
 		System.out.println("EJERCICIO 6 - CALCULAR PRECIO CON IVA");
 		System.out.println("Introduce el precio del producto: ");
 		double precioInicial = sc.nextDouble();
+		sc.close();
 		double precioFinal = precioInicial + (precioInicial * IVA);
 		
 		System.out.println("El precio final del producto es de: "+precioFinal);

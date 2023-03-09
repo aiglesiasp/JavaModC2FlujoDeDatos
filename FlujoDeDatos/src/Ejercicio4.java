@@ -22,6 +22,7 @@ public class Ejercicio4 {
 		System.out.println("EJERCICIO 4 - CALCULAR AREA CIRCULO");
 		System.out.println("Introduce el radio del circulo: ");
 		String radio = sc.nextLine();
+		sc.close();
 		double r = Double.parseDouble(radio);
 		double resultado = PI*(Math.pow(r, 2));
 		
