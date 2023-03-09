@@ -20,7 +20,7 @@ public class Ejercicio2 {
 		System.out.println("EJERCICIO 2 - CONCATENAR STRING");
 		System.out.println("Introduce tu nombre: ");
 		String name = sc.nextLine();
-		System.out.println("BIENVENIDO" +name);
+		System.out.println("Bienvenido " +name);
 
 	}
 
