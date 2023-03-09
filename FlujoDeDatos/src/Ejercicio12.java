@@ -19,7 +19,7 @@ public class Ejercicio12 {
 		final String password = "qwerty123456";
 		int repeticiones = 3;
 		
-		
+		System.out.println("EJERCICIO 12 - PASSWORD");
 		while(repeticiones > 0) {
 			System.out.println("Introduce la contraseña, tienes " +repeticiones+  " intentos: ");
 			String valor = sc.nextLine();
