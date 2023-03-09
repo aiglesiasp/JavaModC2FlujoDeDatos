@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  * 
@@ -16,7 +17,7 @@ public class Ejercicio13 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("EJERCICIO 12 - CALCULADORA INVERSA");
+		System.out.println("EJERCICIO 13 - CALCULADORA INVERSA");
 		System.out.print("Introduce el primer numero: ");
 		int num1 = sc.nextInt();
 		sc.nextLine();
@@ -52,9 +53,7 @@ public class Ejercicio13 {
 				System.out.println("Operacion incorrecta");
 					
 		}
-		
-		System.out.println("El resultado es: " +resultado);
-		
+		JOptionPane.showMessageDialog(null, "El resultado es: "+resultado);
 		
 
 	}
